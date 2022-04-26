@@ -1,0 +1,15 @@
+C:\Cursos\C#\Moda\bin\Debug\net6.0\Moda.exe
+C:\Cursos\C#\Moda\bin\Debug\net6.0\Moda.deps.json
+C:\Cursos\C#\Moda\bin\Debug\net6.0\Moda.runtimeconfig.json
+C:\Cursos\C#\Moda\bin\Debug\net6.0\Moda.dll
+C:\Cursos\C#\Moda\bin\Debug\net6.0\Moda.pdb
+C:\Cursos\C#\Moda\obj\Debug\net6.0\Moda.csproj.AssemblyReference.cache
+C:\Cursos\C#\Moda\obj\Debug\net6.0\Moda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cursos\C#\Moda\obj\Debug\net6.0\Moda.AssemblyInfoInputs.cache
+C:\Cursos\C#\Moda\obj\Debug\net6.0\Moda.AssemblyInfo.cs
+C:\Cursos\C#\Moda\obj\Debug\net6.0\Moda.csproj.CoreCompileInputs.cache
+C:\Cursos\C#\Moda\obj\Debug\net6.0\Moda.dll
+C:\Cursos\C#\Moda\obj\Debug\net6.0\refint\Moda.dll
+C:\Cursos\C#\Moda\obj\Debug\net6.0\Moda.pdb
+C:\Cursos\C#\Moda\obj\Debug\net6.0\Moda.genruntimeconfig.cache
+C:\Cursos\C#\Moda\obj\Debug\net6.0\ref\Moda.dll
