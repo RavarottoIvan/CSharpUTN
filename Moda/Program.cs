@@ -6,48 +6,76 @@ namespace Moda
     {
         public static void Main(String [] arg)
         {
-            Console.WriteLine("Ingrese cuantos valores desea cargar: ");
-            int num = int.Parse(Console.ReadLine());
-            int[] info = new int[num];
-
-            for (int cont = 0; cont < num; cont++)
+            Boolean resp = true;
+            do
             {
-                Console.WriteLine("Ingrese el valor número " + (cont + 1) + ": ");
-                int respuesta = int.Parse(Console.ReadLine());
-                info[cont] = respuesta;
-            }
+                Console.WriteLine("Ingrese cuantos valores desea cargar: ");
+                int num = Convert.ToInt32(Console.ReadLine());
 
-            suma(info);
+                if (num <= 0)
+                {
+                    Console.Write("Ingrese un valor entero positivo.\n");
+                }
+                else
+                {            
+                    suma(num);
+                    resp = false;
+                }
 
+            } while (resp);
         }
 
-        public static void suma(int[] a)
-        {
-            int i, k, moda = a[0], mayor = 0, menor = 0;
-            for ( i = 0; i < a.Length; i++)
+        public static void suma(params int[] a) {
+            int[] info = new int[a];
+            Boolean resp;
+
+            for (int cont = 0; cont < a; cont++)
             {
-                for ( k = 1; k < a.Length; k++ ){
-                    if (a[k] > a[i])
+                resp = true;
+                do
+                {
+                    Console.WriteLine("Ingrese el valor número " + (cont + 1) + ": ");
+                    int respuesta = int.Parse(Console.ReadLine());
+
+
+                    if(respuesta <= 0)
                     {
-                    mayor = a[k];
-                    }else if (a[k] < a[i]){
-                        menor = a[k];
+                        Console.WriteLine("Ingrese un valor entero positivo.\n");
+                    }
+                    else
+                    {
+                        info[cont] = respuesta;
+                        resp = false;
+                    }
+
+                } while (resp);
+
+            }
+            int i, k, moda = info[0], mayor = 0, menor = 0;
+            for ( i = 0; i < info.Length; i++)
+            {
+                for ( k = 1; k < info.Length; k++ ){
+                    if (info[k] > info[i])
+                    {
+                    mayor = info[k];
+                    }else if (info[k] < info[i]){
+                        menor = info[k];
                     }
                 }
             }
             i = 0;
-            while (i < a.Length)
+            while (i < info.Length)
             {
                 int numVeces = 0;
                 k = 0;
-                while (k < a.Length)
+                while (k < info.Length)
                 {
-                    if (a[k] == a[i]) numVeces++;
+                    if (info[k] == info[i]) numVeces++;
                     k++;
                 }
                 if (numVeces > moda)
                 {
-                    moda = a[i];
+                    moda = info[i];
                 }
                 i++;
 

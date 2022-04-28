@@ -1,0 +1,15 @@
+C:\Cursos\C#\Dados\bin\Debug\net6.0\Dados.exe
+C:\Cursos\C#\Dados\bin\Debug\net6.0\Dados.deps.json
+C:\Cursos\C#\Dados\bin\Debug\net6.0\Dados.runtimeconfig.json
+C:\Cursos\C#\Dados\bin\Debug\net6.0\Dados.dll
+C:\Cursos\C#\Dados\bin\Debug\net6.0\Dados.pdb
+C:\Cursos\C#\Dados\obj\Debug\net6.0\Dados.csproj.AssemblyReference.cache
+C:\Cursos\C#\Dados\obj\Debug\net6.0\Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cursos\C#\Dados\obj\Debug\net6.0\Dados.AssemblyInfoInputs.cache
+C:\Cursos\C#\Dados\obj\Debug\net6.0\Dados.AssemblyInfo.cs
+C:\Cursos\C#\Dados\obj\Debug\net6.0\Dados.csproj.CoreCompileInputs.cache
+C:\Cursos\C#\Dados\obj\Debug\net6.0\Dados.dll
+C:\Cursos\C#\Dados\obj\Debug\net6.0\refint\Dados.dll
+C:\Cursos\C#\Dados\obj\Debug\net6.0\Dados.pdb
+C:\Cursos\C#\Dados\obj\Debug\net6.0\Dados.genruntimeconfig.cache
+C:\Cursos\C#\Dados\obj\Debug\net6.0\ref\Dados.dll
